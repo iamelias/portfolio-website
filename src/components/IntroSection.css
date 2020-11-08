@@ -1,0 +1,35 @@
+
+.intro-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  top: 25%;
+  padding-left: 100px;
+  padding-right: 50px;
+}
+
+.image {
+  position: static;
+  background-image: url('/Images/introPic1.png');
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 233px;
+}
+
+
+.text-section {
+  justify-content: center;
+  align-items: center;
+  vertical-align: text-bottom;
+  text-align: center;
+  padding-top: 20px;
+}
+
+p {
+
+}
