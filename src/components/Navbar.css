@@ -83,6 +83,7 @@ grid-gap: 20px;
 width: 10vw;
 justify-content: end;
 margin-right: 2rem;
+list-style-type: none;
 }
 
 @media screen and (max-width: 960px) {
@@ -136,7 +137,7 @@ margin-right: 2rem;
       cursor: pointer;
     }
 
-    .fa-times {
+  .fa-times {
       color: white;
       font-size: 2rem;
     }

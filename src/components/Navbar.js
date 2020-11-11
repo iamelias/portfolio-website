@@ -52,14 +52,14 @@ function Navbar() {
             <div className='navbar-social-icons'>
               <ul className='social-menu'>
                 <li className='social-item'>
-                  <Link to='/github' className='social-links' onClick={closeMobileMenu}>
+                  <a href='https://github.com/iamelias' target='_blank' className='social-links' onClick={closeMobileMenu}>
                     <i class='fab fa-github fa-1x'></i>
-                  </Link>
+                  </a>
                 </li>
                 <li className='social-item'>
-                  <Link to='/twitter' className='social-links' onClick={closeMobileMenu}>
+                  <a href='https://twitter.com/iameliasss' target='_blank' className='social-links' onClick={closeMobileMenu}>
                     <i class='fab fa-twitter fa-1x'></i>
-                  </Link>
+                  </a>
                 </li>
               </ul>
             </div>
