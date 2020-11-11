@@ -1,7 +1,6 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import React, {useState} from 'react';
+import {Link} from 'react-router-dom';
 import './Navbar.css';
-import { Button } from './Button';
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -12,25 +11,28 @@ function Navbar() {
   const showButton = () => {
     if (window.innerWidth <= 960) {
       setButton(false);
-    }
-    else {
+    } else {
       setButton(true);
     }
   };
 
   window.addEventListener('resize', showButton);
 
-  return (
-    <>
-      <nav className = 'navbar'>
-        <div className='navbar-container'>
-          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            iamElias <i className='fas fa-atom' />
-          </Link>
-        <div className = 'menu-icon' onClick={handleClick}>
-          <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
-        </div>
-        <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+  return (<nav className='navbar'>
+    <div className='navbar-container'>
+      <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+        iamElias
+        <i className='fas fa-atom'/>
+      </Link>
+      <div className='nav-menu-icon' onClick={handleClick}>
+        <i className={click
+            ? 'fas fa-times'
+            : 'fas fa-bars'}/>
+      </div>
+      <div className='navbar-pages'>
+        <ul className={click
+            ? 'nav-menu active'
+            : 'nav-menu'}>
           <li className='nav-item'>
             <Link to='/projects' className='nav-links' onClick={closeMobileMenu}>
               Projects
@@ -46,11 +48,26 @@ function Navbar() {
               Privacy Policy
             </Link>
           </li>
-      </ul>
+          <li>
+            <div className='navbar-social-icons'>
+              <ul className='social-menu'>
+                <li className='social-item'>
+                  <Link to='/github' className='social-links' onClick={closeMobileMenu}>
+                    <i class='fab fa-github fa-1x'></i>
+                  </Link>
+                </li>
+                <li className='social-item'>
+                  <Link to='/twitter' className='social-links' onClick={closeMobileMenu}>
+                    <i class='fab fa-twitter fa-1x'></i>
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
       </div>
-    </nav>
-  </>
-  );
+    </div>
+  </nav>);
 }
 
 export default Navbar;

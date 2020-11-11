@@ -30,6 +30,11 @@
   padding-top: 20px;
 }
 
-p {
+.contact-section {
+  padding-top: 20px;
+  color: #732312;
+}
 
+p {
+  font-weight: bold;
 }
