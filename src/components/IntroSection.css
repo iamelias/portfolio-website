@@ -38,3 +38,30 @@
 p {
   font-weight: bold;
 }
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: clear;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.flex-child1 {
+  flex: 1;
+  background-color: clear;
+  border: 2px solid yellow;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 768px) {
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: clear;
+  height: 100%;
+  width: 100%;
+}
+}

@@ -3,17 +3,11 @@ import '../../App.css';
 import IntroSection from '../IntroSection';
 
 function Home() {
-  return (<div className='background'>
-
-    <div class='flex-container'>
-
-      <div class='flex-child'>
+  return (
+    <div className='background'>
         <IntroSection/>
-      </div>
-      <div class='flex-child'></div>
     </div>
-
-  </div>);
+  );
 }
 
 export default Home;

@@ -45,6 +45,19 @@
   height: 100%;
 }
 
+.nav-links:hover {
+  border-bottom: 4px solid white;
+  transition: all 0.2s ease-out;
+}
+
+.nav-links:active {
+  border-bottom: 4px solid white;
+  visibility: visible;
+}
+.nav-links:after {
+
+}
+
 .navbar-pages {
 
 }
@@ -65,11 +78,6 @@
 }
 
 .nav-item {
-}
-
-.nav-links:hover {
-  border-bottom: 4px solid white;
-  transition: all 0.2s ease-out;
 }
 
 .fa-bars {

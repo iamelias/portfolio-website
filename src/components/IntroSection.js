@@ -2,7 +2,11 @@ import React from 'react';
 import './IntroSection.css';
 
 function IntroSection() {
-  return (<div className='intro-section'>
+  return (
+
+    <div class='flex-container'>
+    <div className='flex-child1'>
+    <div className='intro-section'>
     <div className='image'></div>
     <div className='text-section'>
       <p>
@@ -13,7 +17,11 @@ function IntroSection() {
     <div className='contact-section'>
       <p>eliasdeveloper1@gmail.com</p>
     </div>
-  </div>);
+  </div>
+</div>
+<div className='flex-child1'> </div>
+</div>
+);
 }
 
 export default IntroSection;
