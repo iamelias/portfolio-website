@@ -51,7 +51,7 @@ p {
 .flex-child1 {
   flex: 1;
   background-color: clear;
-  border: 2px solid yellow;
+  border: 2px solid clear;
   margin-right: 20px;
 }
 
