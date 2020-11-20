@@ -109,7 +109,6 @@ list-style-type: none;
       top: 0;
       left: 0;
       transform: translate(25%, 50%);
-
     }
 
   .nav-menu-icon {
@@ -133,5 +132,6 @@ list-style-type: none;
     width: 50vh;
     justify-content: space-evenly;
     margin-right: 0rem;
+    padding-top: 50px;
   }
 }

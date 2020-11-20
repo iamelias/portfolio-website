@@ -6,7 +6,6 @@ function Navbar() {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
-  const keepMobileMenu = () => setClick(true);
   const [button, setButton] = useState(true);
 
   const showButton = () => {
@@ -22,7 +21,7 @@ function Navbar() {
   return (<nav className='navbar'>
     <div className='navbar-container'>
       <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-        iamElias 
+        iamElias
         <i className='fas fa-atom'/>
       </Link>
       <div className='nav-menu-icon' onClick={handleClick}>
@@ -53,12 +52,12 @@ function Navbar() {
             <div className='navbar-social-icons'>
               <ul className='social-menu'>
                 <li className='social-item'>
-                  <a href='https://github.com/iamelias' target='_blank' className='social-links' onClick={closeMobileMenu}>
+                  <a href='https://github.com/iamelias' target='_blank'>
                     <i class='fab fa-github fa-1x'></i>
                   </a>
                 </li>
                 <li className='social-item'>
-                  <a href='https://twitter.com/iameliasss' target='_blank' className='social-links' onClick={closeMobileMenu}>
+                  <a href='https://twitter.com/iameliasss' target='_blank'>
                     <i class='fab fa-twitter fa-1x'></i>
                   </a>
                 </li>
