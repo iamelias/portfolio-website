@@ -3,9 +3,9 @@ import '../../App.css';
 import PrivPolSection from '../PrivPolSection';
 
 function PrivacyPolicy() {
-  return (<div className='background'>
+  return (
         <PrivPolSection/>
-  </div>);
+);
 }
 
 export default PrivacyPolicy;

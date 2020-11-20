@@ -5,7 +5,7 @@ function IntroSection() {
   return (
 
     <div class='flex-container'>
-    <div className='flex-child1'>
+    <div className='flex-child'>
     <div className='intro-section'>
     <div className='image'></div>
     <div className='text-section'>
@@ -19,7 +19,7 @@ function IntroSection() {
     </div>
   </div>
 </div>
-<div className='flex-child1'> </div>
+<div className='flex-child'> </div>
 </div>
 );
 }

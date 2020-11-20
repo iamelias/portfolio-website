@@ -1,31 +1,31 @@
 
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-size: cover;
+}
+
+.flex-child {
+  flex: 1;
+}
+
 .intro-section {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
   align-items: center;
   position: relative;
-  top: 25%;
+  top: 20%;
   padding-left: 100px;
-  padding-right: 50px;
+  padding-right: 100px;
 }
 
 .image {
-  position: static;
-  background-image: url('/Images/introPic1.png');
-  background-position: center;
-  background-size: cover;
-  justify-content: center;
-  align-items: center;
+  background-image: url('/Images/introPic1Opt.png');
   height: 300px;
   width: 233px;
 }
 
-
 .text-section {
-  justify-content: center;
-  align-items: center;
-  vertical-align: text-bottom;
   text-align: center;
   padding-top: 20px;
 }
@@ -39,29 +39,6 @@ p {
   font-weight: bold;
 }
 
-.flex-container {
-  display: flex;
-  flex-wrap: wrap;
-  background-color: clear;
-  background-size: cover;
-  height: 100%;
-  width: 100%;
-}
-
-.flex-child1 {
-  flex: 1;
-  background-color: clear;
-  border: 2px solid clear;
-  margin-right: 20px;
-}
-
 @media screen and (max-width: 768px) {
-.flex-container {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  background-color: clear;
-  height: 100%;
-  width: 100%;
-}
+
 }
