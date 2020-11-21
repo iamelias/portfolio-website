@@ -4,8 +4,9 @@ import IntroSection from '../IntroSection';
 
 function Home() {
   return (
-        <IntroSection/>
-  );
+    <>
+    <IntroSection/>
+  </>);
 }
 
 export default Home;

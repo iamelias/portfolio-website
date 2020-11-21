@@ -8,7 +8,9 @@ import PrivacyPolicy from './components/pages/PrivacyPolicy';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 function App() {
-  return (<Router>
+  return (
+    <>
+    <Router>
     <Navbar/>
       <div className='background'>
     <Switch>
@@ -18,7 +20,8 @@ function App() {
       <Route path='/Resume' component={Resume}/>
     </Switch>
   </div>
-  </Router>);
+  </Router>
+</>);
 }
 
 export default App;

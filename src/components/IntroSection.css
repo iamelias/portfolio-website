@@ -17,6 +17,7 @@
   top: 20%;
   padding-left: 100px;
   padding-right: 100px;
+  height: 100%;
 }
 
 .image {
@@ -39,6 +40,16 @@ p {
   font-weight: bold;
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 960px) {
+  .flex-container {
+    display: block;
+    height: 100%;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
 
+  .intro-section {
+    padding-bottom: 20px;
+  }
 }

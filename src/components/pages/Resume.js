@@ -4,8 +4,9 @@ import ResumeSection from '../ResumeSection';
 
 function Resume() {
   return (
-  <ResumeSection/>
-);
+    <>
+    <ResumeSection/>
+  </>);
 
 }
 

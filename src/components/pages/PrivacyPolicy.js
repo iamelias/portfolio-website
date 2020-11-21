@@ -4,8 +4,8 @@ import PrivPolSection from '../PrivPolSection';
 
 function PrivacyPolicy() {
   return (
-        <PrivPolSection/>
-);
+    <><PrivPolSection/>
+  </>);
 }
 
 export default PrivacyPolicy;
