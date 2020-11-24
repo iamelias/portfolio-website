@@ -3,6 +3,10 @@
   display: flex;
   flex-wrap: wrap;
   background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+
 }
 
 .flex-child {
@@ -34,6 +38,7 @@
 .contact-section {
   padding-top: 20px;
   color: #732312;
+  font-size: 15px;
 }
 
 p {
@@ -42,14 +47,49 @@ p {
 
 @media only screen and (max-width: 960px) {
   .flex-container {
-    display: block;
-    height: 100%;
+    display:block;
     width: 100%;
-    overflow-y: auto;
+    height: 150%;
+    overflow-y: scroll;
     overflow-x: hidden;
+  }
+  .flex-child {
+    flex: 1
   }
 
   .intro-section {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 150%;
+    padding-left: 60px;
+    padding-right: 60px;
+    overflow-y: auto;
     padding-bottom: 20px;
   }
+}
+
+@media screen and (orientation: landscape) and (max-width: 960px) {
+  .flex-container {
+    display:block;
+    width: 100%;
+    height: 170%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  .flex-child {
+    flex: 1
+  }
+
+  .intro-section {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 170%;
+    padding-left: 60px;
+    padding-right: 60px;
+    overflow-y: auto;
+    padding-bottom: 20px;
+  }
+
 }

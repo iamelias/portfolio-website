@@ -5,7 +5,7 @@
   justify-content: center;
   font-size: 1.2rem;
   top: 0;
-  z-index: 999;
+  z-index: -2;
 }
 
 .navbar-container {
@@ -56,8 +56,13 @@
   height: 80px;
 }
 
-.fa-github, .fa-twitter, .fa-bars {
+.fa-github, .fa-twitter {
   color: white;
+}
+
+.fa-bars {
+  color: white;
+  padding-right: 15px;
 }
 
 .social-menu {
@@ -68,14 +73,16 @@
   margin-right: 2rem;
   justify-content: end;
   list-style-type: none;
+
 }
 
 @media screen and (max-width: 960px) {
   .nav-menu {
+    background: #242222;
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 100%;
+    height: 150%;
     position: absolute;
     top: 80px;
     left: -100%;
@@ -123,6 +130,7 @@
   .fa-times {
     color: white;
     font-size: 2rem;
+    padding-right: 15px;
   }
 
   .social-menu {
