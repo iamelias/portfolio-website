@@ -11,8 +11,8 @@ function App() {
   return (
     <>
     <Router>
-    <Navbar/>
       <div className='background'>
+        <Navbar/>
     <Switch>
       <Route path='/' exact="exact" component={Home}/>
       <Route path='/Projects' component={Projects}/>

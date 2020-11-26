@@ -6,7 +6,7 @@
   height: 100%;
   width: 100%;
   position: fixed;
-
+  z-index: -1;
 }
 
 .flex-child {
@@ -49,19 +49,16 @@ p {
   .flex-container {
     display:block;
     width: 100%;
-    height: 150%;
+    height: 120%;
     overflow-y: scroll;
     overflow-x: hidden;
-  }
-  .flex-child {
-    flex: 1
   }
 
   .intro-section {
     position: absolute;
     top: 0%;
     width: 100%;
-    height: 150%;
+    height: 120%;
     padding-left: 60px;
     padding-right: 60px;
     overflow-y: auto;
@@ -77,9 +74,6 @@ p {
     overflow-y: scroll;
     overflow-x: hidden;
   }
-  .flex-child {
-    flex: 1
-  }
 
   .intro-section {
     position: absolute;
@@ -91,5 +85,4 @@ p {
     overflow-y: auto;
     padding-bottom: 20px;
   }
-
 }

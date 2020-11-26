@@ -5,11 +5,11 @@
   justify-content: center;
   font-size: 1.2rem;
   top: 0;
-  z-index: -2;
 }
 
 .navbar-container {
   display: inline-flex;
+  z-index: 999;
 }
 
 .nav-menu-icon {
@@ -88,6 +88,7 @@
     left: -100%;
     opacity: 1;
     transition: all 0.3s ease;
+    justify-content: flex-start;
   }
 
   .nav-menu.active {

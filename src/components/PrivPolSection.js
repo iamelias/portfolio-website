@@ -3,7 +3,8 @@ import './PrivResSections.css';
 
 function PrivPolSection() {
   return (
-    <><div className='flex-container1'>
+    <>
+    <div className='flex-container1'>
     <div className='flex-child'>
       <div className='content-wrapper'>
         <div className='priv-text-section'>
