@@ -55,12 +55,12 @@ function Navbar() {
               <ul className='social-menu'>
                 <li className='social-item'>
                   <a href='https://github.com/iamelias' target='_blank'>
-                    <i class='fab fa-github fa-1x'></i>
+                    <i className='fab fa-github fa-1x'></i>
                   </a>
                 </li>
                 <li className='social-item'>
                   <a href='https://twitter.com/iameliasss' target='_blank'>
-                    <i class='fab fa-twitter fa-1x'></i>
+                    <i className='fab fa-twitter fa-1x'></i>
                   </a>
                 </li>
               </ul>

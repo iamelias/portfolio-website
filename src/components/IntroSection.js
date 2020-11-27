@@ -4,7 +4,7 @@ import './IntroSection.css';
 function IntroSection() {
   return (
     <>
-    <div class='flex-container'>
+    <div className='flex-container'>
     <div className='flex-child'>
       <div className='intro-section'>
         <div className='image'></div>
