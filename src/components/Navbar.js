@@ -22,7 +22,7 @@ function Navbar() {
     <>
     <nav className='navbar'>
     <div className='navbar-container'>
-      <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+      <Link to='/portfolio-website' className='navbar-logo' onClick={closeMobileMenu}>
         iamElias
         <i className='fas fa-atom'/>
       </Link>
@@ -46,7 +46,7 @@ function Navbar() {
             </Link>
           </li>
           <li className='nav-item'>
-            <Link to='/privacyPolicy' className='nav-links' onClick={closeMobileMenu}>
+            <Link to='/privacy-policy' className='nav-links' onClick={closeMobileMenu}>
               Privacy Policy
             </Link>
           </li>
