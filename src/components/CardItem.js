@@ -1,11 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+
 
 function CardItem(props) {
   return (
     <>
     <li className = 'cards__item'>
-        <a href={props.url} className='cards__item__link' target={props.target}>
+        <a href={props.url} className='cards__item__link' target={props.target} rel='noreferrer'>
         <figure className = 'cards__item__pic-wrap' data-category={props.label}>
           <img className='cards__item__img' alt='Project Image' src={props.src}/>
         </figure>
