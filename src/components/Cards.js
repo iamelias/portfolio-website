@@ -18,14 +18,14 @@ function Cards() {
                 target = '_blank'
                 />
               <CardItem
-                src = '/Images/BinDecHexWebOpt.png'
+                src = '../Images/BinDecHexWebOpt.png'
                 text = 'BinDecHex'
                 label = 'iOS'
                 url = 'https://github.com/iamelias/bindechex-swiftui'
                 target = '_blank'
                 />
               <CardItem
-                src = '/Images/DietCardsWebOpt.png'
+                src = '../../Images/DietCardsWebOpt.png'
                 text = 'DietCards(private)'
                 label = 'iOS'
                 url = 'https://github.com/iamelias/dietcards-app'
@@ -35,7 +35,7 @@ function Cards() {
             </ul>
             <ul className='card__item'>
               <CardItem
-                src = '/Images/GetCoordinatesOpt.png'
+                src = './Images/GetCoordinatesOpt.png'
                 text = 'GetCoordinates'
                 label = 'iOS'
                 url = 'https://github.com/iamelias/getcoordinates-app'
