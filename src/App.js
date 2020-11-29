@@ -14,10 +14,10 @@ function App() {
       <div className='background'>
         <Navbar/>
     <Switch>
-      <Route path='/' exact="exact" component={Home}/>
-      <Route path='/Projects' component={Projects}/>
-      <Route path='/PrivacyPolicy' component={PrivacyPolicy}/>
-      <Route path='/Resume' component={Resume}/>
+      <Route path='/portfolio-website' component={Home}/>
+      <Route path='/projects' component={Projects}/>
+      <Route path='/privacy-policy' component={PrivacyPolicy}/>
+      <Route path='/resume' component={Resume}/>
     </Switch>
   </div>
   </Router>
