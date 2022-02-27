@@ -16,7 +16,7 @@ function App() {
     <Switch>
       <Route path='/portfolio-website' component={Home}/>
       <Route path='/projects' component={Projects}/>
-      <Route path='/privacy-polcy' component={PrivacyPolicy}/>
+      <Route path='/privacy-policy' component={PrivacyPolicy}/>
       <Route path='/resume' component={Resume}/>
     </Switch>
   </div>
