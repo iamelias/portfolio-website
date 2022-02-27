@@ -22,7 +22,7 @@ function Navbar() {
     <>
     <nav className='navbar'>
     <div className='navbar-container'>
-      <Link to='/portfolio-website' className='navbar-logo' onClick={closeMobileMenu}>
+      <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
         iamElias
         <i className='fas fa-atom'/>
       </Link>

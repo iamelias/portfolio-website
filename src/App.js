@@ -5,7 +5,7 @@ import Home from './components/pages/Home';
 import Projects from './components/pages/Projects';
 import Resume from './components/pages/Resume';
 import PrivacyPolicy from './components/pages/PrivacyPolicy';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import {HashRouter as Router, Switch, Route} from 'react-router-dom';
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
       <div className='background'>
         <Navbar/>
     <Switch>
-      <Route path='/portfolio-website' component={Home}/>
+      <Route exact path='/' component={Home}/>
       <Route path='/projects' component={Projects}/>
       <Route path='/privacy-policy' component={PrivacyPolicy}/>
       <Route path='/resume' component={Resume}/>
