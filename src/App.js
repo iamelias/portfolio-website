@@ -11,7 +11,6 @@ function App() {
   return (
     <>
     <Router>
-      <div className='background'>
         <Navbar/>
     <Switch>
       <Route exact path='/' component={Home}/>
@@ -19,7 +18,6 @@ function App() {
       <Route path='/privacy-policy' component={PrivacyPolicy}/>
       <Route path='/resume' component={Resume}/>
     </Switch>
-  </div>
   </Router>
 </>);
 }
