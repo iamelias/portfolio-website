@@ -4,7 +4,10 @@ import PrivPolSection from '../PrivPolSection';
 
 function PrivacyPolicy() {
   return (
-    <><PrivPolSection/>
+    <>
+     <div className='background'>
+    <PrivPolSection/>
+    </div>
   </>);
 }
 

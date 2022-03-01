@@ -4,7 +4,10 @@ import Cards from '../Cards';
 
 function Projects() {
   return (
-    <><Cards/>
+    <>
+     <div className='background'>
+    <Cards/>
+    </div>
   </>);
 }
 

@@ -5,7 +5,9 @@ import ResumeSection from '../ResumeSection';
 function Resume() {
   return (
     <>
+     <div className='background'>
     <ResumeSection/>
+    </div>
   </>);
 
 }

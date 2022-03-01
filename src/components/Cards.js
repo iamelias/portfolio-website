@@ -7,9 +7,9 @@ function Cards() {
   return (
     <div className='cards'>
       <h1>All Projects</h1>
-        <div className='cards__container'>
-          <div className='cards__wrapper'>
-            <ul className='card__item'>
+        <div className='cards-container'>
+          <div className='cards-wrapper'>
+            <ul className='card-item'>
               <CardItem
                 src = '/portfolio-website/Images/ServingsUpOpt.png'
                 text = 'ServingsUp'
@@ -24,16 +24,22 @@ function Cards() {
                 url = 'https://github.com/iamelias/bindechex-swiftui'
                 target = '_blank'
                 />
-              <CardItem
+                <CardItem
                 src = '/portfolio-website/Images/DietCardsWebOpt.png'
                 text = 'DietCards(private)'
                 label = 'iOS'
                 url = 'https://github.com/iamelias/dietcards-app'
                 target = '_blank'
-
                 />
             </ul>
-            <ul className='card__item'>
+            <ul className='card-item'>
+            <CardItem
+                src = '/portfolio-website/Images/CoffeeShackOpt.png'
+                text = 'CoffeeShack'
+                label = 'iOS'
+                url = 'https://github.com/iamelias/coffee-shack-app-story'
+                target = '_blank'
+                />
               <CardItem
                 src = '/portfolio-website/Images/GetCoordinatesOpt.png'
                 text = 'GetCoordinates'
@@ -48,15 +54,17 @@ function Cards() {
                 url ='https://github.com/iamelias/appointments-app'
                 target = '_blank'
                 />
-              <CardItem
+
+            </ul>
+            
+            <ul className='card-item'>
+            <CardItem
                 src = '/portfolio-website/Images/QuickPDFWebOpt.png'
                 text = 'QuickPDF'
                 label = 'iOS'
                 url = 'https://github.com/iamelias/quickpdf-app'
                 target = '_blank'
                 />
-            </ul>
-            <ul className='card__item'>
               <CardItem
                 src = '/portfolio-website/Images/LocationShareAppOpt.png'
                 text = 'LocationShareApp'
@@ -71,15 +79,16 @@ function Cards() {
                 url = 'https://github.com/iamelias/flickr-album-app'
                 target = '_blank'
                 />
-              <CardItem
+
+            </ul>
+            <ul className='card-item'>
+            <CardItem
                 src = '/portfolio-website/Images/MemeAppWebOpt.png'
                 text = 'MemeApp'
                 label = 'iOS'
                 url = 'https://github.com/iamelias/meme-gen-app'
                 target = '_blank'
                 />
-            </ul>
-            <ul className='card__item'>
               <CardItem
                 src = '/portfolio-website/Images/VoiceChangeWebOpt.png'
                 text = 'VoiceChangeApp'
