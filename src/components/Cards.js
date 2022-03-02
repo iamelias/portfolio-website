@@ -21,7 +21,7 @@ function Cards() {
                 src = '/portfolio-website/Images/BinDecHexWebOpt.png'
                 text = 'BinDecHex'
                 label = 'iOS'
-                url = 'https://github.com/iamelias/bindechex-swiftui'
+                url = 'https://github.com/iamelias/bindechex-app'
                 target = '_blank'
                 />
                 <CardItem
