@@ -24,7 +24,7 @@ function Navbar() {
     <div className='navbar-container'>
       <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
         iamElias
-        <i className='fas fa-atom'/>
+        {/* <i className='fas fa-atom'/> */}
       </Link>
       <div className='nav-menu-icon' onClick={handleClick}>
         <i className={click

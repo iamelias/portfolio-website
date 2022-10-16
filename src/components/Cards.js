@@ -14,7 +14,7 @@ function Cards() {
                 src = '/portfolio-website/Images/ServingsUpOpt.png'
                 text = 'ServingsUp'
                 label = 'iOS'
-                url = 'https://github.com/iamelias/servingsup-app'
+                url = 'https://github.com/iamelias/servingsup-app-story'
                 target = '_blank'
                 />
               <CardItem
